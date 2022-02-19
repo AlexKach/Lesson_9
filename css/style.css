@@ -1,0 +1,273 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap");
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  padding: 10px;
+  max-width: 810px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #424551;
+  font-family: "Lato", "serif";
+  line-height: 25.6px;
+}
+.header {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 60px;
+  color: #1e212c;
+  margin-bottom: 26px;
+}
+.icon {
+  margin-bottom: 10px;
+}
+.icon span {
+  min-height: 16px;
+  color: #787a80;
+}
+.date {
+  display: inline-block;
+  background: url(../img/Calendar.svg) left/ 16px 16px no-repeat;
+  padding-left: 24px;
+}
+.time {
+  display: inline-block;
+  background: url(../img/Clock.svg) left/ 16px 16px no-repeat;
+  margin-left: 24px;
+  padding-left: 24px;
+}
+.list {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.text {
+  font-weight: 700;
+  color: #1e212c;
+}
+.list-img {
+  max-width: 20px;
+}
+
+.image {
+  max-width: 100%;
+  border-radius: 4px;
+  margin-bottom: 60px;
+}
+
+.up700 {
+  margin-bottom: 18px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #1e212c;
+}
+.textup {
+  margin-bottom: 32px;
+}
+.textbottom {
+  margin-bottom: 55px;
+}
+.bottom700 {
+  background: url(../img/braces.svg) 0 0 no-repeat;
+  padding-left: 58px;
+  font-weight: 700;
+  line-height: 30px;
+  min-height: 20px;
+  font-size: 20px;
+  color: #1e212c;
+  margin-bottom: 47px;
+}
+.prewiew {
+  margin-bottom: 24px;
+}
+.item {
+  margin-bottom: 24px;
+}
+.item li:not(:last-child) {
+  margin-bottom: 4px;
+}
+.item li {
+  background: url(../img/thumb.svg) left no-repeat;
+  padding-left: 32px;
+  min-height: 16px;
+}
+
+.text-footer {
+  margin-bottom: 20px;
+}
+h2 {
+  margin-bottom: 40px;
+  padding: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  color: chartreuse;
+  outline: 4px solid rgb(143, 233, 70);
+  text-shadow: 4px 4px 2px rgb(214, 6, 6), 8px 8px 4px rgb(17, 16, 16);
+  border-radius: 10px;
+  background: rgb(27, 32, 31) radial-gradient(circle at 50% 0, rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.35));
+  box-shadow: -15px -15px 2px -5px rgba(123, 51, 90, 0.5), -15px 15px 2px -5px rgba(60, 74, 123, 0.5),
+    15px -15px 2px -5px rgba(255, 0, 0, 0.5), 15px 15px 2px -5px rgba(60, 123, 68, 0.5);
+}
+.game {
+  min-height: 900px;
+  background-image: url(../img/bg_repeat.jpg);
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: "Poppins", "sans-serif";
+  font-weight: 900;
+  font-style: italic;
+  font-size: 50px;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.game-1 {
+  font-size: 25px;
+  width: 80px;
+  padding: 4px;
+  text-transform: capitalize;
+  height: 30px;
+  color: rgb(76, 248, 33);
+  border-radius: 10px;
+  background: rgb(240, 219, 230);
+  text-shadow: 4px 4px 2px rgb(90, 6, 58);
+}
+.game-2 {
+  background: #000;
+  width: 30px;
+  height: 90px;
+  margin: 0 0 0 auto;
+  visibility: hidden;
+}
+
+.game-1:hover {
+  width: 760px;
+  height: 30px;
+  background: rgb(177, 197, 164);
+}
+.game-1:hover + .game-2 {
+  visibility: visible;
+}
+.game-2:hover {
+  visibility: visible;
+}
+.game-2:hover + .game-3 {
+  visibility: visible;
+}
+
+.game-3 {
+  background: darkgoldenrod;
+  width: 760px;
+  height: 30px;
+  visibility: hidden;
+}
+.game-3:hover {
+  visibility: visible;
+}
+.game-3:hover + .game-4 {
+  visibility: visible;
+}
+.game-4 {
+  background: cadetblue;
+  width: 20px;
+  height: 50px;
+  visibility: hidden;
+}
+.game-4:hover {
+  visibility: visible;
+}
+.game-4:hover + .game-5 {
+  visibility: visible;
+}
+.game-5 {
+  background: crimson;
+  width: 760px;
+  height: 17px;
+  visibility: hidden;
+}
+.game-5:hover {
+  visibility: visible;
+}
+.game-5:hover + .game-6 {
+  visibility: visible;
+}
+.game-6 {
+  background: darkgreen;
+  margin: 0 0 0 auto;
+  height: 40px;
+  width: 14px;
+  visibility: hidden;
+}
+.game-6:hover {
+  visibility: visible;
+}
+.game-6:hover + .game-7 {
+  visibility: visible;
+}
+.game-7 {
+  background: darkkhaki;
+  width: 500px;
+  height: 11px;
+  margin: 0 0 0 auto;
+  visibility: hidden;
+}
+.game-7:hover {
+  visibility: visible;
+}
+.game-7:hover + .game-8 {
+  visibility: visible;
+}
+.game-8 {
+  background: darkorchid;
+  width: 10px;
+  height: 100px;
+  margin: 0 auto 0 300px;
+  visibility: hidden;
+}
+.game-8:hover {
+  visibility: visible;
+}
+.game-8:hover + .game-9 {
+  visibility: visible;
+}
+.game-9 {
+  visibility: hidden;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 0 280px;
+  border-radius: 50%;
+  border: 1px solid darkred;
+  background: rgb(139, 241, 161) url(..//img/check.svg) center/40px no-repeat;
+}
+.game-9:hover {
+  visibility: visible;
+  box-shadow: 0 0 0 1px silver, 0 -20px 0 -10px coral, 20px 0 0 -10px darkturquoise, 0 20px 0 -10px gold,
+    -20px 0 0 -10px green;
+  border: 2px solid blue;
+}
+.win:target {
+  visibility: visible;
+}
+.win {
+  text-transform: uppercase;
+  visibility: hidden;
+  color: beige;
+  text-shadow: 4px 4px 2px rgb(7, 74, 163), 8px 8px 4px rgb(202, 14, 240);
+  background: url(../img/like.png) center / 512px no-repeat;
+  display: block;
+  min-height: 520px;
+  min-width: 520px;
+  text-align: right;
+  padding: 10px;
+  padding-right: 50px;
+}
+
+.win::after {
+  content: "!";
+  color: blue;
+}
